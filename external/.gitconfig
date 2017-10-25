@@ -7,8 +7,5 @@
 [color]
 	ui = true
 [user]
-	name = Pedro Vereza
-	email = pdrvereza@gmail.com
-[core]
-	editor = /usr/bin/vim -c 'set spell spelllang=en'
-	excludesfile = /Users/pvereza/.gitignore_global
+	name = José Alberto Zimermann
+	email = jazimermann@gmail.com
