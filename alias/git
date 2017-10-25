@@ -1,0 +1,6 @@
+alias g="git"
+alias gpr="git pull -r origin master"
+alias gst="git status"
+alias gl="git log"
+alias branch="git checkout -b"
+alias send="git pull -r origin master && ./gradlew && g push"
