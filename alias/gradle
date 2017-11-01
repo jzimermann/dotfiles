@@ -1,2 +1,2 @@
-alias run="./gradlew run
+alias run="./gradlew run"
 alias test="./gradlew test"
