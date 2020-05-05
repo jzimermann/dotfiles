@@ -1,4 +1,4 @@
-# How to install
+## How to install
 
 1. ```git clone git@github.com:jzimermann/dotfiles.git```
 2. ```chsh -s /bin/bash```
