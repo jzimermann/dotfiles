@@ -1,2 +1,0 @@
-alias run="./gradlew run"
-alias test="./gradlew test"
