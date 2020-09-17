@@ -1,0 +1,23 @@
+ks() {
+    kubectl --context staging
+}
+
+kp() {
+    kubectl --context prod
+}
+
+kpg() {
+    kubectl --context prod get pods | grep $1
+}
+
+kplg() {
+    kubectl --context prod logs -f -l app=$1
+}
+
+ksg() {
+    kubectl --context staging get pods | grep $1
+}
+
+kslg() {
+    kubectl --context staging logs -f -l app=$1
+}

@@ -1,0 +1,2 @@
+alias dup="docker-compose up --force-recreate"
+alias dremove="docker-compose rm"
