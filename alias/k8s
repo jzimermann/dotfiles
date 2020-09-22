@@ -19,5 +19,5 @@ ksg() {
 }
 
 kslg() {
-    kubectl --context staging logs -f -l app=$1
+    kubectl --context staging logs -f app=$1
 }
