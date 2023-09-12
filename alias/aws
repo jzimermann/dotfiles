@@ -1,0 +1,9 @@
+# console login
+alias awsl = 'saml2aws login'
+
+# S3 list
+alias s3l = 'aws --profile $1 s3 ls'
+
+# open console
+alias awsc = 'saml2aws console -p $1'
+
