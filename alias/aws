@@ -2,8 +2,11 @@
 alias awsl="saml2aws login"
 
 # AWS S3 list
-alias s3l="aws --profile $1 s3 ls"
+s3l() {
+    aws --profile \"$1\" s3 ls
+}
 
 # AWS open console
-alias awsc="saml2aws console -p $1"
-
+awsc() {
+    saml2aws console -p $1
+}
