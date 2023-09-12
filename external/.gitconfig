@@ -1,11 +1,15 @@
 [alias]
-	st = status
-	co = checkout
-	aa = add -A
-	ci = commit -v
-    	ca = commit --amend
+    st = status
+    co = checkout
+    aa = add -A
+    ci = commit -v
+    ca = commit --amend
+    pr = pull --rebase
 [color]
 	ui = true
 [user]
 	name = José Alberto Zimermann
 	email = jazimermann@gmail.com
+[core]
+  editor = /usr/bin/vim -c 'set spell spelllang=en'
+  excludesfile = ~/dotfiles/external/.gitignore_global

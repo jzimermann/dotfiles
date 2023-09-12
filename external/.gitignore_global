@@ -1,0 +1,15 @@
+.DS_Store
+*.sw
+*.iml
+*.swp
+*.swn
+*.swm
+*.swo
+*.swl
+**/.idea/
+**/out/
+*.xcuserdatad
+*.xcworkspace
+**/Carthage/
+
+**/node_modules/
